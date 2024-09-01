@@ -1,12 +1,16 @@
 body{
     color: white;
     background-color: #171923;
+    font-size: large;
 }
 
 p {
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    margin: 1px;
+    max-width: 24in auto;
+    text-align: center;
 }
 
 #romcom{
@@ -30,4 +34,9 @@ p {
 
 #entry1{
     font-size: large;
+}
+
+#ital1{
+
+    font-style: italic;
 }
