@@ -3,6 +3,12 @@ body{
     background-color: #171923;
 }
 
+p {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
 #romcom{
     font-size: xx-large;
     font-family: "Tangerine", cursive;
@@ -14,4 +20,14 @@ body{
     font-family: "Tangerine", cursive;
     font-weight: 400;
     font-style: italic;
+}
+
+#note{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#entry1{
+    font-size: large;
 }
