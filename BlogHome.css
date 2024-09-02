@@ -1,0 +1,56 @@
+body {
+    color: white;
+    background-color: #010114;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.hff {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, transform .2s ease-in-out;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.hff:hover {
+    color: #ffffff;
+    background-color: rgba(133, 121, 88, 0.342);
+    transform: scale(1.1);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.desc {
+    color: white;
+    font-family: "Crimson Pro", sans-serif;
+    font-weight: 100;
+    margin-left: 0cm;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#space {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+}
+
+#blogtitle {
+    margin-left: 14cm;
+    font-family: "Crimson Pro", sans-serif;
+    font-weight: 450;
+}
