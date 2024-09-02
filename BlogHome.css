@@ -16,16 +16,17 @@ p {
     text-decoration: none;
     transition: color 0.3s ease-in-out, transform .2s ease-in-out;
     display: inline-block;
-    padding: 10px 20px;
+    width: 45%;
+    padding: 0.2px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 1px;
     outline: none;
 }
 
 .hff:hover {
     color: #ffffff;
-    background-color: rgba(133, 121, 88, 0.342);
-    transform: scale(1.1);
+    background-color: rgba(175, 119, 119, 0.342);
+    transform: scale(1.05);
 }
 
 .button-container {
@@ -43,6 +44,7 @@ p {
 .italic{
     font-style: italic;
 }
+
 
 #space {
     font-family: "Nanum Myeongjo", serif;
